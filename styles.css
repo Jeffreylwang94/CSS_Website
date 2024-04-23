@@ -124,8 +124,34 @@
     text-align: left;
     font-size: 36px;
     font-style: italic;
-    font-weight: 500;
+    font-weight: lighter;
     color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
     /* height: 100px; */
     /* width: 400px; */
+}
+
+.attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 50px;
+}
+
+.call_to_action {
+    background-color: #3882F6;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.call_to_action_text {
+    font-size: 24px;
+    font-weight: bold;
+    width: 400px;
 }

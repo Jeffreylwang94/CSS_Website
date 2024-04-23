@@ -1,0 +1,131 @@
+* {
+    border: red solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.vert_flex {
+    flex-direction: column;
+}
+
+.darker_section {
+    color: white;
+    background-color: #1F2937;
+    position: relative;
+}
+
+.logo{
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.header_links {
+    flex: 1;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: light;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+  }
+
+.left_header_box {
+    display: flex;
+    flex-direction: column;
+    width: 550px;   
+    justify-content: center;
+    align-items: left;
+}
+
+.image_placeholder {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50;
+    background-color: #E5E7EB;
+}
+
+.blue_sign-up {
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    border-radius: 10PX;
+    font-size: 15px;
+}
+
+#header-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#header-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.blue_box{
+    height: 150px;
+    width: 150px;
+    border: #3882F6 solid 3px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.box_and_label {
+    width: 160px;
+    padding: 25px;
+    margin: 10px;
+    
+}
+
+.blue_box_container {
+    align-items: center;
+    justify-content: center;
+}
+
+.blue_box_text{
+    text-align: center;
+}
+
+.information_header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 25px;
+}
+
+.quote_section {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote_block {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #1F2937;
+    /* height: 100px; */
+    /* width: 400px; */
+}

@@ -1,6 +1,6 @@
 * {
-    border: red solid 2px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* border: red solid 2px; */
+    font-family: "Roboto", sans-serif;
 }
 
 .flex_container {
@@ -19,7 +19,8 @@
 
 .logo{
     font-weight: bold;
-    padding-left: 25px;
+    padding-left: 36px;
+    font-size: 36px;
 }
 
 .header_links {
@@ -27,6 +28,7 @@
     padding-left: 25px;
     padding-right: 25px;
     font-weight: light;
+    width: 150px;
 }
 
 .header {
@@ -38,7 +40,7 @@
 .banner {
     height: 200px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 100px;
   }
 
@@ -97,6 +99,7 @@
 .blue_box_container {
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 .blue_box_text{
@@ -124,11 +127,18 @@
     text-align: left;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 200;
     color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
-    /* height: 100px; */
+    height: 100px; 
     /* width: 400px; */
+    /* background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 64px 20vw;
+    display: flex;
+    flex-direction: column; */
 }
 
 .attribution {
@@ -154,4 +164,15 @@
     font-size: 24px;
     font-weight: bold;
     width: 400px;
+}
+.call_to_action_subtext {
+    font-weight: 100;
+    width: 400px;
+}
+
+.footer {
+    text-align: center;
+    height: 100px;
+    align-content: center;
+    font-weight: lighter;
 }
